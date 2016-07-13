@@ -1,0 +1,39 @@
+import javax.swing.JOptionPane;
+public class MethodWitheParametersAndReturn
+{
+public static int addNums(int a, int b)
+{
+int sum;
+   sum = a + b;
+return sum;
+
+}
+public static int subNums(int c, int d)
+{
+int difference;
+   difference = c - d;
+   return difference;
+   }
+   public static double multiNum(int x, int y)
+   {
+   double quotient;
+   quotient = x * y;
+   return quotient;
+   }
+   
+
+public static void main(String[] args)
+{
+double multiple;
+int sub;
+int total;
+total = addNums(3, 2);
+sub = subNums(10, 2);
+multiple = multiNum(8, 3);
+JOptionPane.showMessageDialog(null, total);
+JOptionPane.showMessageDialog(null, sub);
+JOptionPane.showMessageDialog(null, multiple);
+
+
+}
+}
